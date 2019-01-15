@@ -38,7 +38,7 @@ function fillTOC(toc) {
 		// Crea la etiqueta "a" para título del indice (link)
 		let link = document.createElement('a');
 		// Añade al link el título del header como texto
-		link.text = header.textContent;
+		link.text = headerIndex + '.-' + header.textContent;
 		// Añade al link la ruta al id del header que proximamente crearemos
 		link.href = '#' + headerIndex;
 		// Crea el elemento span donde indicaremos el indice del header
