@@ -1,0 +1,181 @@
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, em, img, strong, sup, var, b, u, i, center, ol, ul, li, fieldset, form, label, article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+strong { font-weight: bold; }
+@font-face {
+	font-family: "BebasNeueRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('bebasneue-webfont.eot') format("embedded-opentype"), url('bebasneue-webfont.woff') format("woff"), url('bebasneue-webfont.ttf') format("truetype"), url('bebasneue-webfont.svg') format("svg");
+}
+html { background: url('bg.png') repeat scroll 0% 0% rgb(255, 255, 255); font-size: 16px; }
+body { color: rgb(46, 58, 56); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 62.5%; }
+img { max-width: 100%; }
+h1 { font-family: BebasNeueRegular; font-size: 4.375em; line-height: 40px; }
+h1 em { color: rgb(91, 110, 115); display: block; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 0.285714em; font-style: normal; font-weight: normal; letter-spacing: 0.1em; text-transform: uppercase; }
+h2 { font-family: BebasNeueRegular; font-size: 3.125em; }
+h3 { font-family: BebasNeueRegular; font-size: 2.5em; }
+h4 { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 1.25em; }
+
+/* LINKS */
+
+/* :link , :visited , :focus , :hover , :active (LVFHA) */
+
+a { color: rgb(61, 102, 126); }
+a:hover { background: none repeat scroll 0% 0% rgb(61, 102, 126); color: rgb(255, 255, 255); }
+
+section.main a {
+	text-decoration: none;
+	color: rgb(46, 58, 56);
+}
+
+section.main a:hover { 
+	border-bottom: dashed 1.7px rgb(61, 102, 126);
+	background: none repeat scroll 0% 0%;
+	color: rgb(61, 102, 126);
+}
+
+
+/* 
+a.linksExternos {
+	text-decoration: none;
+	color: rgb(46, 58, 56);
+}
+a:hover.linksExternos { 
+	border-bottom: dashed 1.7px rgb(61, 102, 126);
+	background: none repeat scroll 0% 0%;
+	color: rgb(61, 102, 126);
+}
+*/
+
+/* ----- */
+
+/* Footer */
+
+footer {
+	position: relative;
+	overflow: auto;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+    background-color: rgb(61, 102, 126);
+}
+
+footer ul {
+	margin: 0 auto;
+	width: 80%;
+	overflow: auto;
+	list-style-type: none;
+}
+
+footer li {
+	float: left;
+	overflow: auto;
+	margin: 0 5%;
+} 
+
+footer a {
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+
+footer a:hover { 
+	background: none repeat scroll 0% 0% white;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: rgb(61, 102, 126);
+}
+
+
+/* ----- */
+
+.group:after { clear: both; content: " "; display: block; font-size: 0px; height: 0px; visibility: hidden; }
+.site { font-size: 1.6em; margin: 40px auto; max-width: 1300px; }
+header { margin-bottom: 20px; }
+.logo { float: left; text-align: center; margin-left: 1.59574%; width: 36.1702%; }
+nav { float: right; margin-top: 30px; margin-right: 3.19149%; }
+nav ul li { display: inline; font-size: 1.125em; font-weight: bold; margin: 0px 40px 0px 0px; }
+nav ul li:last-child { margin-right: 0px; }
+nav ul li a { color: rgb(61, 102, 126); text-decoration: none; }
+nav ul li a:hover, nav ul li.active a { background: none repeat scroll 0% 0% transparent; color: rgb(33, 55, 68); }
+
+
+
+.banner { background: url('img-banner.png') no-repeat scroll 0% 0% transparent; height: 320px; margin-bottom: 20px; overflow: hidden; position: relative; }
+.banner-caption { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.6); bottom: 30px; color: rgb(255, 255, 255); padding: 15px 0px; position: absolute; right: 0px; text-align: center; width: 42.5532%; }
+.main { line-height: 1.5; }
+.main p { padding-bottom: 15px; }
+.inner { padding: 0px 20px; }
+.content { float: left; width: 64.8936%; }
+.content img { padding: 10px 0px 15px; }
+.sidebar { background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.6); box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4); float: right; margin-top: 20px; padding-bottom: 20px; width: 31.9149%; }
+.sidebar-inner { padding-right: 5.55556%; }
+.sidebar h3 { padding-top: 5px; text-align: center; }
+.sidebar ul li { margin-bottom: 5px; }
+.sidebar ul li:last-child { margin-bottom: 0px; }
+.sidebar ul li a { background: none repeat scroll 0% 0% rgb(238, 238, 238); display: block; padding: 5px 10px; text-decoration: none; }
+.sidebar ul li a:hover { background-color: rgb(61, 102, 126); color: rgb(255, 255, 255); }
+.sidebar ul .sidebar-inner-image a { display: block; height: 48px; line-height: 48px; padding: 5px 5px 5px 70px; }
+.sidebar-inner-image .sidebar-inner-jason { background: url('img-jason.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-nick { background: url('img-nick.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-tim { background: url('img-tim.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-drew { background: url('img-drew.png') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-justin { background: url('img-justin.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+@media screen and (min-width: 1300px) {
+	.logo { margin-left: 0px; }
+}
+@media screen and (max-width: 1000px) {
+	h1 { font-size: 3.75em; line-height: 35px; }
+}
+@media screen and (max-width: 850px) {
+	h1 { font-size: 3.125em; line-height: 30px; }
+	h4 { font-size: 1.0625em; }
+	nav { margin-top: 20px; }
+	nav ul li { font-size: 1em; }
+	.banner-caption { bottom: 0px; width: 100%; }
+}
+@media screen and (max-width: 720px) {
+	h1 { font-size: 4.375em; line-height: 40px; }
+	h4 { font-size: 1.25em; }
+	.logo { float: none; margin-left: 0px; width: inherit; }
+	nav { float: none; margin: 10px 0px; text-align: center; width: inherit; }
+	nav ul li { font-size: 1.125em; }
+	.banner { height: 250px; }
+	.content { float: none; margin-left: 0px; width: inherit; }
+	.sidebar { float: none; padding-top: 10px; width: inherit; }
+}
+@media screen and (max-width: 500px) {
+	h2 { font-size: 2.8125em; }
+	nav ul li { font-size: 1em; margin-right: 5%; }
+}
+@media screen and (max-width: 380px) {
+	h1 { font-size: 3.75em; line-height: 35px; }
+	h2 { font-size: 2.8125em; }
+	h3 { font-size: 1.875em; }
+	nav ul li { font-size: 0.8125em; margin-right: 5%; text-transform: uppercase; }
+}
+@media not all {
+	.sidebar ul .sidebar-inner-image .sidebar-inner-jason { background-image: url('img-jason@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-nick { background-image: url('img-nick@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-tim { background-image: url('img-tim@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-drew { background-image: url('img-drew@2x.png'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-justin { background-image: url('img-justin@2x.jpeg'); background-size: 48px 48px; }
+}
+@media screen and (max-width: 320px) {
+	.logo { float: left; text-align: center; margin-left: 1.59574%; width: 36.1702%; }
+	nav { float: right; }
+	nav ul li { display: inline; font-weight: bold; }
+	.content { float: right; width: 64.8936%; }
+	.sidebar { float: right; width: 31.9149%; }
+}
+@media screen and (max-width: 320px) {
+	.logo {  }
+	nav {  }
+}
