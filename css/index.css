@@ -8,9 +8,9 @@ strong { font-weight: bold; }
 	font-family: "BebasNeueRegular";
 	font-style: normal;
 	font-weight: normal;
-	src: url('bebasneue-webfont.eot') format("embedded-opentype"), url('bebasneue-webfont.woff') format("woff"), url('bebasneue-webfont.ttf') format("truetype"), url('bebasneue-webfont.svg') format("svg");
+	src: url('../fonts/bebasneue-webfont.eot') format("embedded-opentype"), url('../fonts/bebasneue-webfont.woff') format("woff"), url('../fonts/bebasneue-webfont.ttf') format("truetype"), url('../fonts/bebasneue-webfont.svg') format("svg");
 }
-html { background: url('bg.png') repeat scroll 0% 0% rgb(255, 255, 255); font-size: 16px; }
+html { background: url('../img/bg.png') repeat scroll 0% 0% rgb(255, 255, 255); font-size: 16px; }
 body { color: rgb(46, 58, 56); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 62.5%; }
 img { max-width: 100%; }
 h1 { font-family: BebasNeueRegular; font-size: 4.375em; line-height: 40px; }
@@ -108,7 +108,7 @@ nav ul li a:hover, nav ul li.active a { background: none repeat scroll 0% 0% tra
 
 
 
-.banner { background: url('img-banner.png') no-repeat scroll 0% 0% transparent; height: 320px; margin-bottom: 20px; overflow: hidden; position: relative; }
+.banner { background: url('../img/img-banner.png') no-repeat scroll 0% 0% transparent; height: 320px; margin-bottom: 20px; overflow: hidden; position: relative; }
 .banner-caption { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.6); bottom: 30px; color: rgb(255, 255, 255); padding: 15px 0px; position: absolute; right: 0px; text-align: center; width: 42.5532%; }
 .main { line-height: 1.5; }
 .main p { padding-bottom: 15px; }
@@ -123,11 +123,11 @@ nav ul li a:hover, nav ul li.active a { background: none repeat scroll 0% 0% tra
 .sidebar ul li a { background: none repeat scroll 0% 0% rgb(238, 238, 238); display: block; padding: 5px 10px; text-decoration: none; }
 .sidebar ul li a:hover { background-color: rgb(61, 102, 126); color: rgb(255, 255, 255); }
 .sidebar ul .sidebar-inner-image a { display: block; height: 48px; line-height: 48px; padding: 5px 5px 5px 70px; }
-.sidebar-inner-image .sidebar-inner-jason { background: url('img-jason.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
-.sidebar-inner-image .sidebar-inner-nick { background: url('img-nick.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
-.sidebar-inner-image .sidebar-inner-tim { background: url('img-tim.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
-.sidebar-inner-image .sidebar-inner-drew { background: url('img-drew.png') no-repeat scroll 5px center rgb(238, 238, 238); }
-.sidebar-inner-image .sidebar-inner-justin { background: url('img-justin.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-jason { background: url('../img/img-jason.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-nick { background: url('../img/img-nick.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-tim { background: url('../img/img-tim.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-drew { background: url('../img/img-drew.png') no-repeat scroll 5px center rgb(238, 238, 238); }
+.sidebar-inner-image .sidebar-inner-justin { background: url('../img/img-justin.jpeg') no-repeat scroll 5px center rgb(238, 238, 238); }
 @media screen and (min-width: 1300px) {
 	.logo { margin-left: 0px; }
 }
@@ -162,11 +162,11 @@ nav ul li a:hover, nav ul li.active a { background: none repeat scroll 0% 0% tra
 	nav ul li { font-size: 0.8125em; margin-right: 5%; text-transform: uppercase; }
 }
 @media not all {
-	.sidebar ul .sidebar-inner-image .sidebar-inner-jason { background-image: url('img-jason@2x.jpeg'); background-size: 48px 48px; }
-	.sidebar ul .sidebar-inner-image .sidebar-inner-nick { background-image: url('img-nick@2x.jpeg'); background-size: 48px 48px; }
-	.sidebar ul .sidebar-inner-image .sidebar-inner-tim { background-image: url('img-tim@2x.jpeg'); background-size: 48px 48px; }
-	.sidebar ul .sidebar-inner-image .sidebar-inner-drew { background-image: url('img-drew@2x.png'); background-size: 48px 48px; }
-	.sidebar ul .sidebar-inner-image .sidebar-inner-justin { background-image: url('img-justin@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-jason { background-image: url('../img/img-jason@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-nick { background-image: url('../img/img-nick@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-tim { background-image: url('../img/img-tim@2x.jpeg'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-drew { background-image: url('../img/img-drew@2x.png'); background-size: 48px 48px; }
+	.sidebar ul .sidebar-inner-image .sidebar-inner-justin { background-image: url('../img/img-justin@2x.jpeg'); background-size: 48px 48px; }
 }
 @media screen and (max-width: 320px) {
 	.logo { float: left; text-align: center; margin-left: 1.59574%; width: 36.1702%; }
@@ -174,8 +174,4 @@ nav ul li a:hover, nav ul li.active a { background: none repeat scroll 0% 0% tra
 	nav ul li { display: inline; font-weight: bold; }
 	.content { float: right; width: 64.8936%; }
 	.sidebar { float: right; width: 31.9149%; }
-}
-@media screen and (max-width: 320px) {
-	.logo {  }
-	nav {  }
 }

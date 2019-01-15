@@ -25,7 +25,9 @@
 
 #TOC {
 	border: solid black 1px;
-	margin: 10px;
+	width: 80%;
+	max-width: 1300px;
+	margin: 15px auto;
 	padding: 10px;
 }
 .TOCEntry {
@@ -41,6 +43,14 @@
 .TOCLevel2 {
 	font-size: 12pt;
 	margin-left: .5in;
+}
+.TOCLevel3 {
+	font-size: 8pt;
+	margin-left: 1in;
+}
+.TOCLevel4 {
+	font-size: 8pt;
+	margin-left: 1.5in;
 }
 .TOCSectNum:after {
 	content: ": ";
